@@ -1,0 +1,21 @@
+/* File này khai báo Tailwind, font chữ và bảng màu thương hiệu dùng chung cho toàn bộ dự án. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-espresso: #13100e;
+  --color-roast: #1c1714;
+  --color-crema: #f6f1e7;
+  --color-oat: #ede5d5;
+  --color-paper: #fbf9f4;
+  --color-amber: #d96b27;
+  --color-matcha: #2d7a4d;
+  --color-danger: #c93b2b;
+  --color-ink: #181411;
+  --color-muted: #6e645b;
+  --color-line: #dfd5c5;
+
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
